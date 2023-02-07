@@ -1,0 +1,407 @@
+* {
+    font-family: 'Roboto';
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    height: 50px;
+    background: #212121;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    list-style-type: none;
+}
+.menu .menu_link {
+font-weight: 300;
+font-size: 15px;
+color: floralwhite;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader {
+    width: 100%;
+    height: 84px;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+}
+
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .subheader_official {
+    margin-top: 6px;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 13px;
+    color: #FFFFFF;
+    opacity: 0.6;
+   
+}
+
+.subheader_call {
+    text-align: right;
+    margin-top: 19px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.subheader_phone {
+    margin-top: 8px;
+    display: block;
+    text-align: right;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.subheader_btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);   
+}
+
+.promo {
+    min-height: 800px;
+    background: url('../img/first_background/uber_bg.jpg') center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+
+.promo .promo_header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+    text-align: center;
+}
+
+.promo .promo_subheader {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 22px;
+    text-align: center;
+}
+
+.promo .promo_descr {
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF; 
+}
+
+.promo .promo_btn {
+    margin: 0 auto;
+    margin-top: 115px;
+    display: block;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.advantages {
+    min-height: 764px;
+    padding: 17px 0 64px 0;
+}
+
+.advantages_btn {
+    display: block;
+    margin: 0 auto;
+    width: 115px;
+    height: 27px;
+    background: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.advantages_reasons {
+    margin-top: 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+
+.elips_1 {
+    margin:27px 20px 23px 16px;
+  
+   
+
+}
+.round_one {
+    margin-top: 32px;
+    width: 116px;
+    height: 116px;
+    border-radius: 100%;
+    background: #1EACC7;
+
+}
+.elips_one_descr { 
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+
+    color: #1EACC7;
+}
+.elips_one_subtitle {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    
+    color: #202020;
+    
+}
+.elips_2 {
+    margin:31px 13px 29px 17px;
+ 
+}
+.round_two {
+    margin-top: 62px;
+    width: 116px;
+    height: 116px;
+    border-radius: 100%;
+    background: #1EACC7;
+}
+
+
+.elips_second_descr{
+    margin-top: 26px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+
+    color: #1EACC7;
+}
+.elips_two_subtitle {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    
+    color: #202020;
+    
+}
+.elips_3 {
+    margin:20px 29px 18px 33px;
+  
+}
+.round_three {
+    margin-top: 66px;
+    width: 116px;
+    height: 116px;
+    border-radius: 100%;
+    background: #1EACC7;
+}
+.elips_three_descr{
+    margin-top: 31px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+
+    color: #1EACC7;
+}
+.elips_three_subtitle {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    
+    color: #202020;
+    
+}
+.elips_4 {
+    margin:22px 15px 28px 16px;
+
+}
+.round_four {
+    margin-top: 39px;
+    width: 116px;
+    height: 116px;
+    border-radius: 100%;
+    background: #1EACC7;
+}
+.elips_four_subtitle {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    
+    color: #202020;
+    
+}
+.elips_four_descr {
+    margin-top: 27px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+
+    color: #1EACC7;
+}
+.elips_five {
+    margin: 26px 26px 21px 26px;
+
+}
+.round_five {
+    margin-top: 32px;
+    width: 116px;
+    height: 116px;
+    border-radius: 100%;
+    background: #1EACC7
+}
+.elips_five_descr {
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+
+    color: #1EACC7;
+}
+.elips_five_subtitle {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    
+    color: #202020;
+}
+.elips_six {
+    margin:21px 19px 22px 18px;
+
+}
+.round_six {
+    margin-top: 60px;
+    width: 116px;
+    height: 116px;
+    border-radius: 100%;
+    background: #1EACC7;
+}
+.elips_six_descr {
+    margin-top: 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+
+    color: #1EACC7;
+}
+.elips_six_subtitle {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    
+    color: #202020;
+}
+.elips_seven {
+    margin: 25px 27px 24px 26px;
+
+}
+.round_seven {
+    margin-top: 65px;
+    width: 116px;
+    height: 116px;
+    border-radius: 100%;
+    background: #1EACC7;
+}
+.elips_seven_descr {
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+
+    color: #1EACC7;
+}
+.elips_seven_subtitle {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    
+    color: #202020;
+}
+.elips_eight {
+    margin: 24px 24px 24px 19px;
+
+}
+.round_eight {
+    margin-top: 39px;
+    width: 116px;
+    height: 116px;
+    border-radius: 100%;
+    background: #1EACC7;
+}
+.elips_eight_descr {
+    margin-top: 28px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+
+    color: #1EACC7;
+}
+.elips_eight_subtitle {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    
+    color: #202020;
+}
